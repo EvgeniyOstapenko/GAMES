@@ -1,0 +1,565 @@
+<path_patterns>
+
+    <pattern>
+        <description>
+            platform left-right 0
+        </description>
+        <terrain>
+            0
+            0
+            1
+        </terrain>
+        <directions>
+             0
+            17
+             0
+        </directions>
+        <jumps>
+             0
+             0
+             0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump left 0 1
+        </description>
+        <terrain>
+            0, 0
+            0, 0
+            1, 0
+            2, 1
+        </terrain>
+        <directions>
+            0,  0
+           51,  0
+            0, 51
+            0,  0
+        </directions>
+        <jumps>
+            0, 0
+            0, 0
+            0, l
+            0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump left 0 2
+        </description>
+        <terrain>
+            0,0
+            0,0
+            1,0
+            2,0
+            2,1
+        </terrain>
+        <directions>
+              0,   0
+             17, 153
+            130,   0
+              0,  51
+              0,   0
+        </directions>
+        <jumps>
+              0,   0
+              0,   0
+              0,   0
+              0,   l
+              0,   0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump right 0 1
+        </description>
+        <terrain>
+            0, 0
+            0, 0
+            0, 1
+            1, 2
+        </terrain>
+        <directions>
+              0,   0
+              0, 153
+            153,   0
+              0,   0
+        </directions>
+        <jumps>
+            0, 0
+            0, 0
+            r, 0
+            0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump right 0 2
+        </description>
+        <terrain>
+            0, 0
+            0, 0
+            0, 1
+            0, 2
+            1, 2
+        </terrain>
+        <directions>
+              0,   0
+             51,  17
+              0,  40
+            153,   0  
+              0,   0
+        </directions>
+        <jumps>
+              0,   0
+              0,   0
+              0,   0
+              r,   0
+              0,   0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump left-right 1
+        </description>
+        <terrain>
+            0, 0, 0
+            0, 0, 0
+            1, 0, 1
+        </terrain>
+        <directions>
+              0, 10,  0
+            153,  0, 51
+              0,  0,  0
+        </directions>
+        <jumps>
+            0, 0, 0
+            r, 0, l
+            0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump left 1 1
+        </description>
+        <terrain>
+            0, 0, 0
+            0, 0, 0
+            1, 0, 0
+            2, 0, 1
+        </terrain>
+        <directions>
+              0,   0,  0
+             17,  51,  0
+              0,   0, 51
+              0,   0,  0
+        </directions>
+        <jumps>
+            0, 0, 0
+            r, 0, 0
+            0, 0, l
+            0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump left 1 2
+        </description>
+        <terrain>
+            0, 0, 0
+            0, 0, 0
+            1, 0, 0
+            2, 0, 0
+            2, 0, 1
+        </terrain>
+        <directions>
+              0,   0,  0
+             17,  85,  0
+              0, 102,  0
+              0,   0, 51
+              0,   0,  0
+        </directions>
+        <jumps>
+            0, 0, 0
+            0, 0, 0
+            r, 0, 0
+            0, 0, l
+            0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump right 1 1
+        </description>
+        <terrain>
+            0, 0, 0
+            0, 0, 0
+            0, 0, 1
+            1, 0, 2
+        </terrain>
+        <directions>
+              0,   0,   0
+              0,  153, 17
+            153,   0,   0
+              0,   0,   0
+        </directions>
+        <jumps>
+            0, 0, 0
+            0, 0, l
+            r, 0, 0
+            0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump right 1 2
+        </description>
+        <terrain>
+            0, 0, 0
+            0, 0, 0
+            0, 0, 1
+            0, 0, 2
+            1, 0, 2
+        </terrain>
+        <directions>
+              0,   0,  0
+              0,  85, 17
+              0, 204,  0
+            153,   0,  0
+              0,   0,  0
+        </directions>
+        <jumps>
+            0, 0, 0
+            0, 0, l
+            0, 0, 0
+            r, 0, 0
+            0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump left-right 2
+        </description>
+        <terrain>
+            0, 0, 0, 0
+            0, 0, 0, 0
+            1, 0, 0, 1
+        </terrain>
+        <directions>
+              0, 153, 51,  0
+            153,   0,  0, 51
+              0,   0,  0,  0
+        </directions>
+        <jumps>
+            0, 0, 0, 0
+            r, 0, 0, l
+            0, 0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump left 2 1
+        </description>
+        <terrain>
+            0, 0, 0, 0
+            0, 0, 0, 0
+            1, 0, 0, 0
+            2, 0, 0, 1
+        </terrain>
+        <directions>
+               0, 10,   0,  0
+             153,  0,  34,  0
+               0,  0,   0, 51
+               0,  0,   0,  0
+        </directions>
+        <jumps>
+            0, 0, 0, 0
+            r, 0, 0, 0
+            0, 0, 0, l
+            0, 0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump left 2 2
+        </description>
+        <terrain>
+            0, 0, 0, 0
+            0, 0, 0, 0
+            1, 0, 0, 0
+            2, 0, 0, 0
+            2, 0, 0, 1
+        </terrain>
+        <directions>
+               0, 10,   0,  0
+             153,  0, 102,  0
+               0,  0, 102,  0
+               0,  0,   0, 51
+               0,  0,   0,  0
+        </directions>
+        <jumps>
+            0, 0, 0, 0
+            r, 0, 0, 0
+            0, 0, 0, 0
+            0, 0, 0, l
+            0, 0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump right 2 1
+        </description>
+        <terrain>
+            0, 0, 0, 0
+            0, 0, 0, 0
+            0, 0, 0, 1
+            1, 0, 0, 2
+        </terrain>
+        <directions>
+               0,   0, 10,  0
+               0, 136,  0, 51
+             153,   0,  0,  0
+               0,   0,  0,  0
+        </directions>
+        <jumps>
+            0, 0, 0, 0
+            0, 0, 0, l
+            r, 0, 0, 0
+            0, 0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump right 2 2
+        </description>
+        <terrain>
+            0, 0, 0, 0
+            0, 0, 0, 0
+            0, 0, 0, 1
+            0, 0, 0, 2
+            1, 0, 0, 2
+        </terrain>
+        <directions>
+               0,   0, 10,  0
+               0, 204,  0, 51
+               0, 204,  0,  0
+             153,   0,  0,  0
+               0,   0,  0,  0
+        </directions>
+        <jumps>
+            0, 0, 0, 0
+            0, 0, 0, l
+            0, 0, 0, 0
+            r, 0, 0, 0
+            0, 0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump left-right 3
+        </description>
+        <terrain>
+            0, 0, 0, 0, 0
+            0, 0, 0, 0, 0
+            1, 0, 0, 0, 1
+        </terrain>
+        <directions>
+              0, 153, 17, 51,  0
+            153,   0,  0,  0, 51
+              0,   0,  0,  0,  0
+        </directions>
+        <jumps>
+            0, 0, 0, 0, 0
+            r, 0, 0, 0, l
+            0, 0, 0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump left 3 1
+        </description>
+        <terrain>
+            0, 0, 0, 0, 0
+            0, 0, 0, 0, 0
+            1, 0, 0, 0, 0
+            2, 0, 0, 0, 1
+        </terrain>
+        <directions>
+               0, 153,  51,  0,  0
+             153,   0,   0, 34,  0
+               0,   0,   0,  0, 51
+               0,   0,   0,  0,  0
+        </directions>
+        <jumps>
+            0, 0, 0, 0, 0
+            r, 0, 0, 0, 0
+            0, 0, 0, 0, l
+            0, 0, 0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump left 3 2
+        </description>
+        <terrain>
+            0, 0, 0, 0, 0
+            0, 0, 0, 0, 0
+            1, 0, 0, 0, 0
+            2, 0, 0, 0, 0
+            2, 0, 0, 0, 1
+        </terrain>
+        <directions>
+               0, 10,   0,  0,  0
+             153,  0,  34,  0,  0
+               0,  0,   0, 34,  0
+               0,  0,   0,  0, 51
+               0,  0,   0,  0,  0
+        </directions>
+        <jumps>
+            0, 0, 0, 0, 0
+            r, 0, 0, 0, 0
+            0, 0, 0, 0, 0
+            0, 0, 0, 0, l
+            0, 0, 0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump right 3 1
+        </description>
+        <terrain>
+            0, 0, 0, 0, 0
+            0, 0, 0, 0, 0
+            0, 0, 0, 0, 1
+            1, 0, 0, 0, 2
+        </terrain>
+        <directions>
+               0,   0, 153, 51,  0
+               0, 136,   0,  0, 51
+             153,   0,   0,  0,  0
+               0,   0,   0,  0,  0
+        </directions>
+        <jumps>
+            0, 0, 0, 0, 0
+            0, 0, 0, 0, l
+            r, 0, 0, 0, 0
+            0, 0, 0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump right 3 2
+        </description>
+        <terrain>
+            0, 0, 0, 0, 0
+            0, 0, 0, 0, 0
+            0, 0, 0, 0, 1
+            0, 0, 0, 0, 2
+            1, 0, 0, 0, 2
+        </terrain>
+        <directions>
+               0,   0,   0, 10,  0
+               0,   0, 136,  0, 51
+               0, 136,   0,  0,  0
+             153,   0,   0,  0,  0
+               0,   0,   0,  0,  0
+        </directions>
+        <jumps>
+            0, 0, 0, 0, 0
+            0, 0, 0, 0, l
+            0, 0, 0, 0, 0
+            r, 0, 0, 0, 0
+            0, 0, 0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump left-right 4
+        </description>
+        <terrain>
+            0, 0, 0, 0, 0, 0
+            0, 0, 0, 0, 0, 0
+            1, 0, 0, 0, 0, 1
+        </terrain>
+        <directions>
+              0, 153, 17, 17, 51,  0
+            153,   0,  0,  0,  0, 51
+              0,   0,  0,  0,  0,  0
+        </directions>
+        <jumps>
+            0, 0, 0, 0, 0, 0
+            r, 0, 0, 0, 0, l
+            0, 0, 0, 0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump left 4 1
+        </description>
+        <terrain>
+            0, 0, 0, 0, 0, 0
+            0, 0, 0, 0, 0, 0
+            1, 0, 0, 0, 0, 0
+            2, 0, 0, 0, 0, 1
+        </terrain>
+        <directions>
+               0, 153,  17, 51,  0,  0
+             153,   0,   0,  0, 34,  0
+               0,   0,   0,  0,  0, 51
+               0,   0,   0,  0,  0,  0
+        </directions>
+        <jumps>
+            0, 0, 0, 0, 0, 0
+            r, 0, 0, 0, 0, 0
+            0, 0, 0, 0, 0, l
+            0, 0, 0, 0, 0, 0
+        </jumps>
+    </pattern>
+
+    <pattern>
+        <description>
+            jump right 4 1
+        </description>
+        <terrain>
+            0, 0, 0, 0, 0, 0
+            0, 0, 0, 0, 0, 0
+            0, 0, 0, 0, 0, 1
+            1, 0, 0, 0, 0, 2
+        </terrain>
+        <directions>
+               0,   0, 153, 17, 51,  0
+               0, 136,   0,  0,  0, 51
+             153,   0,   0,  0,  0,  0
+               0,   0,   0,  0,  0,  0
+        </directions>
+        <jumps>
+            0, 0, 0, 0, 0, 0
+            0, 0, 0, 0, 0, l
+            r, 0, 0, 0, 0, 0
+            0, 0, 0, 0, 0, 0
+        </jumps>
+    </pattern>
+
+</path_patterns>
+
